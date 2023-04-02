@@ -1,0 +1,228 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Core Java
+
+1. Solid Principles
+https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+
+2. Clean Code/ Hexagonal Architecture
+
+2. OOPS Principles
+3. Design Patterns
+    -Singleton (private constructor, private final static variable of own class, public static method)
+        https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples
+    -Composite vs Decorator Pattern
+
+4. Immutable Class
+https://www.digitalocean.com/community/tutorials/how-to-create-immutable-class-in-java
+5. Java Pass By Value or Reference(Pss bY value Only.)
+    https://www.digitalocean.com/community/tutorials/java-is-pass-by-value-and-not-pass-by-reference
+6. Java Memeory Models(Young Gen,s01,s1,old gen,heap,stack)
+
+https://www.digitalocean.com/community/tutorials/java-jvm-memory-model-memory-management-in-java
+
+7. String literal and String Object and String Pool
+
+https://www.digitalocean.com/community/tutorials/what-is-java-string-pool
+
+8. Inteface and Abstact Class
+
+https://www.digitalocean.com/community/tutorials/difference-between-abstract-class-and-interface-in-java
+
+9. Marker Interfaces
+
+Seriliazable,clonaeable, Remote
+
+https://www.geeksforgeeks.org/marker-interface-java/
+
+10. Deep Copy and Shallow Copy
+
+
+>>>>>>>>>>>>>>>>Collection
+
+1. How HashMap Works?
+
+https://www.digitalocean.com/community/tutorials/java-hashmap
+https://javarevisited.blogspot.com/2011/02/how-hashmap-works-in-java.html#axzz7uFUx47sf
+
+2. Fail Safe vs Fail Fast
+
+https://www.geeksforgeeks.org/fail-fast-fail-safe-iterators-java/
+
+3. Hashmap vs Sync HashMap vs Concurrent Hashmap
+
+
+
+
+>>>>>>>>>>>>>>>>Java 8+
+
+
+Interface Static, private and default methods
+
+Predicate, Consumers,Suppliers, Functions
+
+Lambda/FunctionalInterface/Method Reference
+
+Records
+
+Sealed Classes
+
+Java trim vs strip
+
+
+>>>>>>>>>>>>>>>>Thread
+
+Thread vs Process
+
+Runnablle vs Callable vs Thread
+
+Deadlock
+
+InterThreadCommunication
+
+Completable Future:
+
+https://medium.com/swlh/futures-in-java-completablefuture-69acc14fa71d
+https://dzone.com/articles/20-examples-of-using-javas-completablefuture
+
+Sleep vs Wait
+
+CountDownLatch vs CyclicBarrier
+
+Fork Join pool
+
+Diff Between Executor and Submit
+
+Blocking vs Non Blocking
+
+JPA Caching
+
+Working of Concurrent Hashmap
+
+Clustered vs Non Clustered Index
+
+Shutdown vs ShutdownNow
+
+https://jenkov.com/tutorials/java-util-concurrent/executorservice.html
+
+ThreadPoolExecutor and AfterExecute(Font Handling Exception)
+
+https://www.digitalocean.com/community/tutorials/threadpoolexecutor-java-thread-pool-example-executorservice
+
+
+CompletableFuture
+https://dzone.com/articles/20-examples-of-using-javas-completablefuture
+https://medium.com/swlh/futures-in-java-completablefuture-69acc14fa71d
+
+
+>>>>>>>>>>>>>>>>Spring/ Spring Boot
+
+Spring bean LifeCycle
+
+Spring MVC Working
+
+
+
+>>>>>>>>>>>>>>>>Spring Security
+
+
+WebSecurityConfurerAdapter
+
+
+
+>>>>>>>>>>>>>>>>JPA/ Hibernete
+
+Hibernate Entity Lifecycle
+
+Id Generations
+
+Owning Entity (One who has Foreign Entity)
+
+
+>>>>>>>>>>>>>>>>Cloud and Architecture
+
+How To Create High Availability System
+
+Event Driven Archutecture vs Saga
+
+Hexagonal Architecture and Clean Code
+
+Domain Driven Design
+
+Test Driven Design
+
+>>>>>>>>>>>>>>>>>Reactive Java/Rx java
+
+Mono Flux
+
+
+>>>>>>>>>>>>>>>>>Docker Kubernete
+
+Kubernete:
+
+Services:
+
+-ClusterIP
+-Kubectl Proxy
+-NodePort
+-LoadBalancer
+-Ingress
+
+
+https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
+
+
+#################
+
+Hibernate:
+1. Entitty LifeCycle
+2. One to many, many to many
+3. Generated Classes
+
+
+Thread:
+Thread vs Process
+Thread vs Runnable
+Call vs Run
+
+Future
+Volatile
+
+
+
+Kubernete:
+
+Services:
+
+-ClusterIP
+-Kubectl Proxy
+-NodePort
+-LoadBalancer
+-Ingress
+
+
+https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
+
+
+Architecture:
+
+Clean Code
+
+Domain Driven-TDD/Stratgic DD
+
+Hexagonal Architecture
+
+Kafka
+
+Cassandra
+
+
+MMAP: https://man7.org/linux/man-pages/man2/mmap.2.html Latency numbers: https://gist.github.com/jboner/2841832
+
+HLD courses:
+https://www.scaler.com/topics/courses/
+
+https://www.interviewbit.com/courses/system-design/ Practice problem: https://leetcode.com/problems/lru-cache/ Scaler events: https://www.scaler.com/events
+queue latency: https://gist.github.com/jboner/2841832
+
+https://www.youtube.com/watch?v=-_rdWB9hN1c&ab_channel=MartinKleppmann
+
+LRU cache for order matching
